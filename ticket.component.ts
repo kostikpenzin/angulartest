@@ -23,7 +23,7 @@ import { BreakpointObserver, BreakpointState } from '@angular/cdk/layout';
 @Component({
   selector: 'cr-ticket',
   templateUrl: './ticket.component.html',
-  styles: [`h1,h2{color:#F68954;}p{font:normal 20px/32px opensans-600,Arial,Helvetica,sans-serif;}`]
+  styles: [`h1,h2{color:#F68954;}p{font:normal 20px/32px opensans-600,Arial,Helvetica,sans-serif;}`],
   styleUrls: ['./ticket.component.scss'],
 })
 export class TicketComponent implements OnDestroy, OnInit {
